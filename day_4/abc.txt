@@ -1,0 +1,7 @@
+table tag in html 
+    <table>
+    <tr> --> rows verticle 
+    <th> -->table heading
+    <td> -->table data
+
+    column Horizontal 
