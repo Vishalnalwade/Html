@@ -1,0 +1,22 @@
+what is attribute ?
+all html tag have attribute
+we always write it in starting tag
+and its always come like  name =value
+
+syntax:
+    <tagname attributename =value >content</>
+    eg..
+    <body style background-color ="red"></body>
+
+    hyperlink <a> anchor tag
+        <a > open me</a>
+        <a href="google.com">Open me</a>
+
+    <p></p>
+    --->block of text  always atart new line 
+    <pre> pre formated text
+
+
+    h1 to h6 heading tags
+    <h1 title ="This is Heading">Heading</h1>
+    <h2 title ="Attribute Title">Hi</h2>
