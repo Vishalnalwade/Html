@@ -1,0 +1,14 @@
+<br> --->line braking tag self closing tag
+
+<hr> --> Horizontal rule self closing tag
+
+Html style:
+    seting style in html element we can do that using style attribute
+    <tag style= "property:value;"> -- > in line css
+
+    <h1 style="color:red;">ok</h1>
+
+        <body style="background-color:rgb(106, 233, 67);">
+        <b> -->bold
+
+        H2O
