@@ -1,0 +1,49 @@
+HTML :-
+    HTML - Hyper text markep language
+    it is used for creating an structure of webpage
+    we can create website
+    extension .htm or .html
+    HTML is not case sensitive uppercase lowercase
+
+
+Syntax :-
+    <!DOCTYPE html>
+    <html> ---->root element ,main tag of html document 
+        <head> --->to give additional information about web page
+            <title>Welcome</title> ---->
+        </head>
+        <body>
+            <h1>Welcome to HTML</h1>
+            Hello
+        </body>
+    </html> ---->closing /endind tag
+
+
+<HTML> -----------------
+    --------------
+    head-------
+     <title>----
+     --
+     --
+     --
+     --
+     body------
+     -----
+     <p>-----
+     -----
+
+
+
+*** what do  you mean  html element ?
+     <title>Welcome</title>
+     <h1>Welcome to HTML</h1> 
+     this is html element 
+
+nested html element 
+     <html> 
+     </html> 
+
+
+self  closing tag 
+     <br>
+     <hr>
