@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Relative</title>
+    <style>
+        body {
+            display: flex;
+        }
+
+        #div1 {
+            width: 280px;
+            margin-left: 10px;
+            border: 2px solid black;
+        }
+        #div2 {
+            width: 280px;
+            margin-left: 10px;
+            border: 2px solid black;
+        }
+        #div3 {
+            width: 280px;
+            margin-left: 10px;
+            border: 2px solid black;
+        }
+        #div4 {
+            width: 280px;
+            margin-left: 10px;
+            border: 2px solid black;
+        }
+        
+    </style>
+</head>
+
+<body>
+    <div id="div1">
+        <h2>Current Folder(CWD)</h2>
+        <img src="FdImg1.jpeg" alt="Folder Image">
+    </div>
+    <div id="div2">
+        <h2>Folder in Current Folder</h2>
+        <img src="img/FdImg.jpeg" alt="Folder Image">
+    </div>
+    <div id="div3">
+        <h2>Under root</h2>
+        <img src="../images/FdImg2.jpeg" alt=" Image">
+    </div>
+    <div id="div4">
+        <h2>One level up</h2>
+        <img src="../../FdImg4.jpeg" alt=" Image">
+    </div>
+    
+</body>
+
+</html>

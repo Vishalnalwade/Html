@@ -1,0 +1,45 @@
+use lowercase 
+use Doctype html
+close tag in starting
+values to attribute double quote
+use alt attribute in img tag
+
+<p id=  "demo"> </p> not give space between 
+
+indentation 
+<html>
+    <body>
+
+    </body>
+</html>
+
+comment not unwanted
+
+code redable
+dont write Unused code
+time complexity
+space complexity
+follow/maintain standard
+best practices 
+
+
+absulate path relative
+absulate path=D:/Eagle Vision/html.png"
+
+redable path="images/html.png"
+
+Instance/Stages/Environment
+
+Local/Dev Stage
+Test Environment :Developer responsible
+QS/QA Eagle :AMS team
+Production Stage :Actual User final Environment
+
+Fresher 
+Training 1-3 months
+Projects
+Full Stack
+
+Jira : tickets
+Customer/client
+
