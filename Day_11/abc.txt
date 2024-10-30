@@ -1,0 +1,10 @@
+id attribute 
+usedto maintain unique  id for html element
+the value of an id must be unique within htmnl doc
+used by css and js
+
+
+
+#id
+
+div division

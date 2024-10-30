@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    
+    <title>Shapes</title>
+    <style>
+
+        body {
+            display: flex;
+            height: 100vh;
+            margin: 20px;
+            align-items: center;
+        }
+
+        .triangle {
+            width: 0;
+            height: 0;
+            border-left: 25px solid transparent;
+            border-right: 25px solid transparent;
+            border-bottom: 50px solid black;
+        }
+
+        .Square {
+            background-color: black;
+            width: 50px;
+            height: 50px;
+        }
+
+        .circle {
+            background-color: black;
+            width: 50px;
+            height: 50px;
+            border-radius: 50%;
+        }
+
+        .rectangle {
+            background-color: black;
+            width: 80px;
+            height: 50px;
+        }
+
+        .tr {
+
+            height: 0;
+            width: 0;
+            border-left: 25px solid transparent;
+            border-right: 25px solid transparent;
+            border-top: 50px solid black;
+        }
+
+        .pr {
+            width: 100px;
+            height: 50px;
+            transform: skew(20deg);
+            background: black;
+        }
+
+        .ov {
+            height: 50px;
+            width: 100px;
+            background-color: black;
+            border-radius: 50%;
+        }
+    </style>
+</head>
+
+<body>
+    <h2>Trangle</h2>
+    <div class="triangle"></div>
+    <h2>Square</h2>
+    <div class="Square"></div>
+    <h2>Circle</h2>
+    <div class="circle"></div>
+    <h2>Rectangle</h2>
+    <div class="rectangle"></div>
+    <h2>Trangle Rev</h2>
+    <div class="tr"></div>
+    <h2>Parllelogram</h2>
+    <div class="pr"></div>
+    <h2>Oval</h2>
+    <div class="ov"></div>
+</body>
+
+</html>
