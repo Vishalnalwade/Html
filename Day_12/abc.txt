@@ -1,0 +1,6 @@
+Iframe 
+
+use to embed one doc within current html doc.
+<iframe src ="url" title="titlemsg"></iframe>
+ 
+ 

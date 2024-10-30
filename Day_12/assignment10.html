@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>IFrame</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        .header {
+            display: flex;
+            margin-top: 15px;
+            margin-bottom: 15px;
+            margin-left: 15px;
+            margin-right: 15px;
+            justify-content: space-between;
+
+
+        }
+
+        .remove {
+            display: flex;
+            gap: 80px;
+            list-style-type: none;
+        }
+
+        li a {
+            text-decoration: none;
+            font-size: 1rem;
+            color: rgb(59, 192, 221);
+        }
+
+        .home {
+            height: 150px;
+            width: 100%;
+            background-color: antiquewhite;
+        }
+
+        .home h1 {
+            display: flex;
+            justify-content: center;
+            line-height: 5;
+        }
+        .aa{
+            margin-left: 500px;
+        }
+        
+    </style>
+</head>
+
+<body>
+    <div class="header">
+        <h2 >
+            <img src="EV.png" alt="Eagle Vision Learning World Image" width="40px" height="40px">
+            Eagle Vision Learning World
+        </h2>
+        <ul class="remove">
+            <li><a href="div.html" target="demo">India Flag</li>
+            <li><a href="div2.html" target="demo">Paris flag</a></li>
+            <li><a href="div3.html" target="demo">Germany flag</a></li>
+
+        </ul>
+    </div>
+    <div class="home">
+        <h1>Flags</h1>
+        <iframe class="aa" src="" name="demo" title="demo" width="20%" height="150px" style="border: 2px solid black;"></iframe>
+    </div>
+</body>
+
+</html>
