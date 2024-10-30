@@ -1,0 +1,22 @@
+select tag
+optgroup tag
+option tag
+textarea tag
+fieldset tag
+legend tag
+datalist tag
+option tag
+
+disabled attribute
+readonly attribute
+autofocus attribute
+required attribute
+maxlength attribute
+
+04-09-2024
+
+meaningful name for assignment 
+comment use Compulsory
+acknoledgement
+
+html media
