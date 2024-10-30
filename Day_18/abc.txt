@@ -1,0 +1,8 @@
+Symbols
+
+entity name 
+%EntityName;
+
+entity symbol
+
+euro
