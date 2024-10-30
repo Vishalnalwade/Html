@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Form</title>
+</head>
+
+<body>
+    <form action="" method="post">
+        <input type="text" value="Hie" disabled><br><br>
+        <label for="name">Name</label>
+        <input type="text" value="Vishal" readonly><br>
+        <label for="name">Nalwade</label>
+        <input type="text" value="Nalwade"><br><br>
+        <label for="name">Password</label>
+        <input type="text" value="" maxlength="5" autofocus><br><br>
+        <label for="name">Name</label>
+        <input type="text" placeholder="Enter Your name" required><br><br>
+
+        <br><br>
+        <br><br>
+
+        <label for="clg">Select your college name</label>
+        <select name="clg" id="clg" size="3" multiple>
+            <optgroup label="Pune">
+                <option value="SSMB">SSMB</option>
+                <option value="BPSCC">BPSCC</option>
+                <option value="MIT">MIT</option>
+                <option value="SSMB">SSMB</option>
+                <option value="BPSCC" selected>BPSCC</option>
+                <option value="MIT">MIT</option>
+            </optgroup>
+            <optgroup label="Mumbai" disabled>
+                <option value="SSMB">SSMB</option>
+                <option value="BPSCC">BPSCC</option>
+                <option value="MIT">MIT</option>
+                <option value="SSMB">SSMB</option>
+                <option value="BPSCC">BPSCC</option>
+                <option value="MIT">MIT</option>
+            </optgroup>
+            <optgroup label="Hydrabad">
+                <option value="SSMB">SSMB</option>
+                <option value="BPSCC">BPSCC</option>
+                <option value="MIT">MIT</option>
+                <option value="SSMB">SSMB</option>
+                <option value="BPSCC">BPSCC</option>
+                <option value="MIT">MIT</option>
+            </optgroup>
+        </select>
+
+
+
+
+        <input type="submit" style="background-color: blue;"> <br><br>
+        
+        <h3>textArea</h3>
+        <textarea name="as" id="as" style="width: 300px;" rows="2" wrap="soft">
+            </textarea><br><br>
+        <button type="button">
+            I am Button
+        </button><br><br>
+        <fieldset>
+            <legend>Student Registration Form</legend>
+            <label for="fname"> First name</label>
+            <input type="text" name="fname" id="fname"><br><br>
+            <label for="fname"> Last name</label>
+            <input type="text" name="fname" id="fname"><br><br>
+            <input type="submit" style="background-color: blue;width: 200px;height: 50px;"> <br><br>
+
+        </fieldset>
+        <br><br>
+        <h2>Data List</h2>
+        <input list="clgs" name="clg" id="clg">
+        <datalist id="clgs">
+            <option value="MIT">
+            <option value="SSMB">
+            <option value="SBZ">
+        </datalist>
+        <input type="submit" style="background-color: blue;"><br><br><!--comment-->
+    </form>
+</body>
+
+</html>
