@@ -1,0 +1,190 @@
+
+https://meet.google.com/xiv-hnjm-rsx
+
+06/08/2024
+1 . what is html element ?
+--> <title>Welcome</title>
+
+
+2 . nested html element
+--> <html>
+    </html>
+
+3 . self closing tag
+--> <br>
+    <hr>
+
+4 . Syntax :-
+    <!DOCTYPE html> --> represent html document and HTML 5 
+    <html> ---->root element ,main tag of html document 
+        <head> --->to give additional information about web page
+            <title>Welcome</title> ---->
+        </head>
+        <body> -->All website Content inside body tag
+            <h1>Welcome to HTML</h1>
+            Hello
+        </body>
+    </html> ---->closing /endind tag
+
+5 . What is HTML ?
+--> HTML - Hyper text markep language
+    it is used for creating an structure of webpage
+    we can create website
+    extension .htm or .html
+    HTML is not case sensitive uppercase lowercase 
+
+
+07/08/2024
+6 . What is Attribute ?
+--> all html tag have attribute
+    we always write it in starting tag
+    and its always come like  name =value
+
+7 . what is attribute syntax ?
+--> <tagname attributename =value >content</>
+    eg..
+    <body style background-color ="red"></body>
+
+8 . what is anchor tag ?
+--> hyperlink <a> anchor tag
+        <a > open me</a>
+        <a href="google.com">Open me</a>
+
+9 . what is <p> and <pre> ?
+--> <p></p>
+    --->paragraph tag
+        block of text  always atart new line 
+    <pre></pre>
+    --->pre formated text
+
+10 . what is heading tag ?
+--> h1 to h6 heading tags
+    <h1 title ="This is Heading">Heading</h1>
+    <h2 title ="Attribute Title">Hi</h2>
+
+11 . what is img tag ?
+--> <img src="02.PNG" alt="BGMI map image" width="80px" height="50">
+
+12 . what is <br> tag ?
+--> <br>
+    --->line braking tag self closing tag
+
+13 . What is <hr> tag ?
+--> <hr> 
+    --> Horizontal rule self closing tag
+
+
+08/08/2024
+14 . what is HTML style ?
+--> Html style:
+    seting style in html element we can do that using style attribute
+    <tag style= "property:value;"> -- > in line css
+    <h1 style="color:red;">ok</h1>
+    <body style="background-color:rgb(106, 233, 67);">
+    <pre style = "text-align: right;">
+    <p style="font-size: 40%;">
+
+15 . what is <b> tag ?
+--> bold text inside <b></b> tag
+
+16 . what is italic tag ?
+--> <i>Hello everyone</i> this is italic tag
+
+17 . what is <small> tag ?
+--> <small>Welocome to eagle vision</small> print small size in web page
+
+18 . what is mark tag ?
+--> this is highlighting tag
+    <mark> HTML</mark>
+
+19 . what is <del> tag ?
+--> <del>to</del> line centre of Word
+
+20 . what is <ins> tag ?
+--> underline word 
+    <ins>Eagle vission</ins>
+
+21 . what is subscript tag ?
+--> Subscript tag H<sub>2</sub>O 
+
+22 . what is superscript tag ?
+--> 1<sup>st</sup> super script tag
+
+
+09/08/2024
+23 . what is <table> tag ?
+--> table tag is used for creating tables
+
+24 . what is <tr> <th> <td> ?
+--> <tr> --> for creating table rows  --verticle 
+    <th> -->for creating table table heading
+    <td> -->for creating table table data
+
+25 . what is clospan ?
+--> converting one column into multiple column as our requirment
+
+26 . what is rowspan ? 
+--> converting one row into multiple row as our requirment
+
+
+13/08/2024
+27 . what is colgroup ?
+--> colgroup is uesd for applying style to columns
+    in colgroup we can use col tag for Grouping the columns and apply 
+    style in each cell in column
+
+28 . What is <col> tag ?
+--> col tag is use for selecting columns using span attribute for
+ applying style to our table
+
+
+14/08/2024
+29 . what is padding property Where we can use ?
+--> padding is property which is used for spacing our test in right left bottom and top 
+    in our table cell or image
+
+30 . what is list ?
+--> list is used to represent items in list
+    There are two types of list 1. unordered list and 2. ordered list
+    in unordered list there are four types 1.disc this is bydefault
+    2.circle 3.square amd 4. none
+    as well as in ordered list there are three types 1.number this is bydefault 
+    2.Alphabet in uppercase and lowercase 3.Roman numbers 
+
+31 . what is dl tag dt tag and dd tag ?
+--> dl means Discription list When we need to add defination type concept in our 
+    web page then we use dl tag 
+    within dl tag we can write dt tag means Discription type means heading of 
+    Discription 
+    then we use dd tag which is Discription data 
+
+
+15/08/2024
+32 . what is rgb ?
+-->red green and blue 
+
+33 . what is HSL ?
+--> Hue Saturation and lightness
+
+34 . what is Hexadecimal color in HTML ?
+--> it is type of color code that use Hexadecimal
+ numbers to repreent binary code value
+ #RRGGBB
+
+
+21/08/2024
+35 . what is inline element ?
+--> inline elements are not start in new line 
+    eg  
+        span tag, b ,small ,mark,etc.
+
+36 . what is block level element ?
+--> block elements starts with new line 
+    eg
+        p , br, hr ,form ,etc.
+ 
+ 37 . what is the use of style tag ?
+ --> this tag is used to apply internal css
+    
+38 . what is class attribute ?
+--> 
