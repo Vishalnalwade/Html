@@ -1,0 +1,27 @@
+padding 
+
+
+margin
+
+list list item marker
+
+unordered list 
+type= disc circle square none 
+
+
+using css
+
+    <ul style="list-style-type: circle;">
+        <li>Java</li>
+        <li>CSS</li>
+        <li>Html</li>
+       </ul>
+
+ordered list
+type =A ,a ,i ,I,1
+<ol start="10">
+Discription
+dl dt dd
+Discription list
+Discription type
+Discription data
