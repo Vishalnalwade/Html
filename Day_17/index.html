@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title></title>
+</head>
+
+<body>
+    <div>
+        <button onclick="playVideo()"> Play</button>
+
+        <video id="video">
+            <source src="videoplayback.mp4">
+            </source>
+        </video>
+    </div>
+    <script>
+        var id = document.getElementById("video");
+        function playVideo() {
+            if (id.paused)
+                id.play();
+            else
+                id.pause();
+        }
+    </script>
+</body>
+
+</html>

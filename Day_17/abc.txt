@@ -1,0 +1,14 @@
+html sementic element  
+
+header footer are considered as sementic element
+
+Article aside figure 
+
+easy to access
+easy to ues
+
+<div id="header"></div>
+<div class="header"></div>
+<div></div>
+
+<header></header>
