@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Hello Guys..!</h1>
+    <p id="d">change Style using Javascript</p>
+    <script>
+        function changeStyle(){
+            document.getElementById('d').style.color="Blue";
+            document.getElementById('d').style.backgroundColor="green";
+            document.getElementById('d').style.fontFamily="sans-serif";
+            document.getElementById('d').style.fontSize="40px";
+        }
+        function alertBox(){
+            alert("Heyy , I Am Alert Box !!");
+        }
+    </script>
+    <button type="button" onclick="changeStyle()">Change</button>
+    <br><br><br>
+    <button type="button" onclick="alertBox()">alert</button>
+</body>
+</html>
