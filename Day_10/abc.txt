@@ -1,0 +1,39 @@
+html favicon 
+
+<link>
+rel
+type
+href
+
+html block and html inline --->
+
+    based on type of an element html element has default value associated it
+
+    html Block level element-->
+        p, hr, form ,pre ,del, 
+
+    html inline element -->
+        It  will not start on new line 
+        <span>HTML</spanm> 
+        <a href="" >Link</a>
+        sup ,sub ,i, b ,small ,
+
+
+html class 
+used to maintain class for an html element 
+multiple tag /element can have some class name 
+
+<h1 class ="demo"></h1>
+
+. : dot (period) character 
+.ClassName{
+    css property : value;
+}
+
+eg.
+.demo{
+    background-color:red;
+}
+
+inline css 
+internal css
